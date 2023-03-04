@@ -1,0 +1,20 @@
+server:
+  port: 80
+  servlet:
+    context-path: /lion
+
+
+spring:
+  mail:
+    host: smtp.yeah.net
+    username: hk_lion@yeah.net
+    # 注意事项：password属性不是邮箱密码，请填写邮箱smtp授权码，可通过验证手机发送短信生成
+    password: NUDUZMKVKFPPMIUI
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+
