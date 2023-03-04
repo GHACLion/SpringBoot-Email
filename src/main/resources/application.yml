@@ -9,7 +9,7 @@ spring:
     host: smtp.yeah.net
     username: hk_lion@yeah.net
     # 注意事项：password属性不是邮箱密码，请填写邮箱smtp授权码，可通过验证手机发送短信生成
-    password: NUDUZMKVKFPPMIUI
+    password:
     properties:
       mail:
         smtp:
